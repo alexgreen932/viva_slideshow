@@ -1,0 +1,441 @@
+/* line 2, front/_slideshow-new.scss */
+.oss-slide-content {
+  display: flex !important; }
+  /* line 4, front/_slideshow-new.scss */
+  .oss-slide-content .oss-slide-box {
+    margin: 20px !important;
+    padding: 10px;
+    box-sizing: border-box; }
+    /* line 9, front/_slideshow-new.scss */
+    .oss-slide-content .oss-slide-box div {
+      color: inherit !important;
+      margin-top: 0;
+      margin-bottom: 15px !important; }
+    /* line 15, front/_slideshow-new.scss */
+    .oss-slide-content .oss-slide-box a {
+      margin-bottom: 0; }
+    /* line 18, front/_slideshow-new.scss */
+    .oss-slide-content .oss-slide-box .viva-slide-heading {
+      color: #fff;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      line-height: 110%; }
+      /* line 24, front/_slideshow-new.scss */
+      .oss-slide-content .oss-slide-box .viva-slide-heading span {
+        text-transform: none; }
+        /* line 27, front/_slideshow-new.scss */
+        .oss-slide-content .oss-slide-box .viva-slide-heading span:before {
+          content: "- "; }
+
+/* line 36, front/_slideshow-new.scss */
+.oss-slideshow .oss-slide-container {
+  z-index: 3; }
+
+/* line 39, front/_slideshow-new.scss */
+.oss-slideshow .oss-slide-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3; }
+
+/* line 48, front/_slideshow-new.scss */
+.oss-flex-center-top {
+  justify-content: center;
+  align-items: flex-start; }
+  /* line 51, front/_slideshow-new.scss */
+  .oss-flex-center-top div, .oss-flex-center-top p, .oss-flex-center-top a {
+    text-align: center; }
+
+/* line 55, front/_slideshow-new.scss */
+.oss-flex-center-center {
+  justify-content: center;
+  align-items: center; }
+  /* line 58, front/_slideshow-new.scss */
+  .oss-flex-center-center div, .oss-flex-center-center p, .oss-flex-center-center a {
+    text-align: center; }
+
+/* line 62, front/_slideshow-new.scss */
+.oss-flex-center-bottom {
+  justify-content: center;
+  align-items: flex-end; }
+  /* line 65, front/_slideshow-new.scss */
+  .oss-flex-center-bottom div, .oss-flex-center-bottom p, .oss-flex-center-bottom a {
+    text-align: center; }
+
+/* line 69, front/_slideshow-new.scss */
+.oss-flex-left-top {
+  justify-content: flex-start;
+  align-items: flex-start; }
+  /* line 72, front/_slideshow-new.scss */
+  .oss-flex-left-top div, .oss-flex-left-top p, .oss-flex-left-top a {
+    text-align: left; }
+
+/* line 76, front/_slideshow-new.scss */
+.oss-flex-left-center {
+  justify-content: flex-start;
+  align-items: center; }
+  /* line 79, front/_slideshow-new.scss */
+  .oss-flex-left-center div, .oss-flex-left-center p, .oss-flex-left-center a {
+    text-align: left; }
+
+/* line 83, front/_slideshow-new.scss */
+.oss-flex-left-bottom {
+  justify-content: flex-start;
+  align-items: flex-end; }
+  /* line 86, front/_slideshow-new.scss */
+  .oss-flex-left-bottom div, .oss-flex-left-bottom p, .oss-flex-left-bottom a {
+    text-align: left; }
+
+/* line 90, front/_slideshow-new.scss */
+.oss-flex-right-top {
+  justify-content: flex-end;
+  align-items: flex-start; }
+  /* line 93, front/_slideshow-new.scss */
+  .oss-flex-right-top div, .oss-flex-right-top p, .oss-flex-right-top a {
+    text-align: right; }
+
+/* line 99, front/_slideshow-new.scss */
+.oss-flex-right-center {
+  justify-content: flex-end;
+  align-items: center; }
+  /* line 102, front/_slideshow-new.scss */
+  .oss-flex-right-center div, .oss-flex-right-center p, .oss-flex-right-center a {
+    text-align: right; }
+
+/* line 107, front/_slideshow-new.scss */
+.oss-flex-right-bottom {
+  justify-content: flex-end;
+  align-items: flex-end; }
+  /* line 110, front/_slideshow-new.scss */
+  .oss-flex-right-bottom div, .oss-flex-right-bottom p, .oss-flex-right-bottom a {
+    text-align: right; }
+
+/* line 3, front/_slideshow-effects.scss */
+.oss-slide-default .oss-slide-box {
+  display: none; }
+  /* line 5, front/_slideshow-effects.scss */
+  .oss-slide-default .oss-slide-box .viva-slide-heading, .oss-slide-default .oss-slide-box span, .oss-slide-default .oss-slide-box div, .oss-slide-default .oss-slide-box a {
+    display: none; }
+/* line 10, front/_slideshow-effects.scss */
+.oss-slide-default .uk-active .oss-slide-box {
+  display: block;
+  -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 500ms both;
+  animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 500ms both; }
+  /* line 14, front/_slideshow-effects.scss */
+  .oss-slide-default .uk-active .oss-slide-box .viva-slide-heading, .oss-slide-default .uk-active .oss-slide-box span {
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) 800ms both;
+    animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) 800ms both; }
+  /* line 19, front/_slideshow-effects.scss */
+  .oss-slide-default .uk-active .oss-slide-box div {
+    display: block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) 1100ms both;
+    animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) 1100ms both; }
+  /* line 24, front/_slideshow-effects.scss */
+  .oss-slide-default .uk-active .oss-slide-box a {
+    display: inline-block;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) 1400ms both;
+    animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) 1400ms both; }
+
+/* line 4, front/_uk-overrwrite.scss */
+.oss-slideshow .v-slide-nav {
+  position: absolute;
+  top: 50%;
+  margin-top: -1rem;
+  display: inline-block !important;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  border-width: 0 !important; }
+  /* line 15, front/_uk-overrwrite.scss */
+  .oss-slideshow .v-slide-nav:focus, .oss-slideshow .v-slide-nav:focus-within {
+    border-width: 0 !important;
+    border-color: transparent !important;
+    outline: 0 !important;
+    border: none !important;
+    -moz-outline-style: none !important;
+    box-shadow: none !important; }
+/* line 25, front/_uk-overrwrite.scss */
+.oss-slideshow .vv-prev {
+  left: 20px; }
+/* line 28, front/_uk-overrwrite.scss */
+.oss-slideshow .vv-next {
+  right: 20px; }
+/* line 32, front/_uk-overrwrite.scss */
+.oss-slideshow .os-slide-item img {
+  z-index: 1; }
+/* line 35, front/_uk-overrwrite.scss */
+.oss-slideshow .os-slide-item .oss-slide-filter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2; }
+
+/* line 47, front/_uk-overrwrite.scss */
+.oss-cards .uk-button {
+  border: none !important;
+  border-image-width: 0 !important;
+  border-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+/* line 54, front/_uk-overrwrite.scss */
+.oss-info-box {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin-bottom: 20px; }
+  /* line 60, front/_uk-overrwrite.scss */
+  .oss-info-box:hover {
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+
+/* line 65, front/_uk-overrwrite.scss */
+.oss-info-text-box {
+  padding: 20px; }
+
+/* line 68, front/_uk-overrwrite.scss */
+.oss-info-icon-box {
+  display: flex;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  align-content: center;
+  align-items: center;
+  background: #436bdc;
+  color: #fff; }
+  /* line 77, front/_uk-overrwrite.scss */
+  .oss-info-icon-box span {
+    font-size: 42px; }
+
+/* line 2, front/_viva-brand.scss */
+.vi-button-red {
+  background: #f44336; }
+
+/* line 5, front/_viva-brand.scss */
+.vi-button-blue {
+  background: #1e87f0; }
+
+/* line 8, front/_viva-brand.scss */
+.vi-button-green {
+  background: #4caf50; }
+
+/* line 12, front/_viva-brand.scss */
+.vi-button-teal {
+  background: #009688;
+  color: #fff; }
+
+/* line 17, front/_viva-brand.scss */
+.vi-button-indigo {
+  background: #3f51b5;
+  color: #fff; }
+
+/* line 22, front/_viva-brand.scss */
+.vi-button-default {
+  background: #efefef;
+  color: #000; }
+
+/* line 27, front/_viva-brand.scss */
+.vi-button-purple {
+  background: #9c27b0;
+  color: #fff; }
+
+/* line 32, front/_viva-brand.scss */
+.vi-button-cyan {
+  background: #00bcd4;
+  color: #fff; }
+
+/* line 37, front/_viva-brand.scss */
+.vi-button-gray {
+  background: #455a64; }
+
+/* line 40, front/_viva-brand.scss */
+.vi-button-light-gray {
+  background: #cfd8dc;
+  color: #000 !important; }
+
+/* line 44, front/_viva-brand.scss */
+.vi-button-red, .vi-button-blue, .vi-button-green, .vi-button-teal, .vi-button-indigo, .vi-button-default, .vi-button-purple, .vi-button-cyan, .vi-button-gray, .vi-button-light-gray {
+  -webkit-transition: box-shadow 2s ease;
+  -moz-transition: box-shadow 2s ease;
+  -o-transition: box-shadow 2s ease;
+  transition: box-shadow 2s ease; }
+  /* line 49, front/_viva-brand.scss */
+  .vi-button-red:hover, .vi-button-blue:hover, .vi-button-green:hover, .vi-button-teal:hover, .vi-button-indigo:hover, .vi-button-default:hover, .vi-button-purple:hover, .vi-button-cyan:hover, .vi-button-gray:hover, .vi-button-light-gray:hover {
+    -webkit-box-shadow: inset 3px 3px 29px 15px rgba(0, 0, 0, 0.19);
+    box-shadow: inset 3px 3px 29px 15px rgba(0, 0, 0, 0.19); }
+
+/* line 55, front/_viva-brand.scss */
+.vi-text-shadow {
+  text-shadow: #474747 3px 5px 2px; }
+
+/* line 58, front/_viva-brand.scss */
+.vi-text-inset {
+  text-shadow: #e0e0e0 1px 1px 0; }
+
+/* line 61, front/_viva-brand.scss */
+.vi-text-glow {
+  text-shadow: #fff 0 0 10px; }
+
+/* line 64, front/_viva-brand.scss */
+.vi-text-neon {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18; }
+
+/* line 67, front/_viva-brand.scss */
+.vi-text-flame {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #6cccf2, 0 0 30px #6cccf2, 0 0 40px #6cccf2, 0 0 55px #6cccf2, 0 0 75px #6cccf2; }
+
+/* line 70, front/_viva-brand.scss */
+.vi-text-fire {
+  text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px; }
+
+/* line 73, front/_viva-brand.scss */
+.vi-text-blur {
+  text-shadow: rgba(255, 255, 255, 0.5) 0 0 15px, rgba(255, 255, 255, 0.5) 0 0 10px; }
+
+/* line 76, front/_viva-brand.scss */
+.vi-text-simple3d {
+  text-shadow: #404040 1px 3px 0, #726e6e 1px 13px 5px; }
+
+/* line 80, front/_viva-brand.scss */
+.vi-text-realistic3d {
+  text-shadow: #726e6e 0 1px 0, #404040 0 2px 0, #615e5e 0 3px 0, #404040 0 4px 0, #514e4e 0 5px 0, rgba(0, 0, 0, 0.1) 0 6px 1px, rgba(0, 0, 0, 0.1) 0 0 5px, rgba(0, 0, 0, 0.3) 0 1px 3px, rgba(0, 0, 0, 0.15) 0 3px 5px, rgba(0, 0, 0, 0.2) 0 5px 10px, rgba(0, 0, 0, 0.2) 0 10px 10px, rgba(0, 0, 0, 0.1) 0 20px 20px; }
+
+/* line 83, front/_viva-brand.scss */
+.vi-text-vegas {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px; }
+
+/* line 86, front/_viva-brand.scss */
+.vi-text-grave {
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5; }
+
+/* line 89, front/_viva-brand.scss */
+.vi-text-deep {
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9); }
+
+/* line 92, front/_viva-brand.scss */
+.vi-text-tactile {
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5); }
+
+/* line 95, front/_viva-brand.scss */
+.vi-text-cartoon {
+  text-shadow: #fff 2px 2px 0px, #9C9C9C 4px 4px 0px; }
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-7-18 11:14:56
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@media (max-width: 639px) {
+  /* line 3, front/_mobile-view.scss */
+  .oss-slideshow .oss-slide-box .viva-slide-heading {
+    font-size: 1.5rem !important; }
+  /* line 6, front/_mobile-view.scss */
+  .oss-slideshow .oss-slide-box .v-slide-text {
+    font-size: 1rem !important; } }
+/* line 7, front/_thumb-nav.scss */
+.oss-slideshow .uk-dotnav.uk-dashed .uk-active a {
+  background-color: #fff; }
+/* line 12, front/_thumb-nav.scss */
+.oss-slideshow .uk-dotnav.uk-dashed a {
+  width: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+  /* line 19, front/_thumb-nav.scss */
+  .oss-slideshow .uk-dotnav.uk-dashed a .v-sl-preview-thumb {
+    left: -35px; }
+/* line 26, front/_thumb-nav.scss */
+.oss-slideshow .uk-dotnav a {
+  overflow-x: visible;
+  overflow-y: visible;
+  position: relative; }
+  /* line 31, front/_thumb-nav.scss */
+  .oss-slideshow .uk-dotnav a:hover .v-sl-preview-thumb {
+    display: block;
+    -webkit-animation: fade-in-bottom-small 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fade-in-bottom-small 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  /* line 37, front/_thumb-nav.scss */
+  .oss-slideshow .uk-dotnav a .v-sl-preview-thumb {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: -49px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position: center center;
+    background-size: 100% auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    z-index: 99; }
+    /* line 59, front/_thumb-nav.scss */
+    .oss-slideshow .uk-dotnav a .v-sl-preview-thumb:after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 42px;
+      border: 7px solid rgba(255, 255, 255, 0.8);
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+      border-left-color: transparent; }
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-8-30 15:32:2
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom-small
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-bottom-small {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+@keyframes fade-in-bottom-small {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */

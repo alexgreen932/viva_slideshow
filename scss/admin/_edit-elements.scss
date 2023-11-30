@@ -1,0 +1,335 @@
+@import "_vars.scss";
+
+$bodrer: #fff;
+
+.os_slideshow:hover .v_thumbs {
+  opacity: 1;
+
+}
+
+$border-color_1: #f00;
+
+/*# sourceMappingURL=dev.css.map */
+.os_slideshow:hover .v_thumbs{
+  opacity: 1;
+}
+.v_thumbs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	opacity: 0;
+  line-height: 80px;
+  padding: 10px 0;
+	-webkit-transition: opacity 0.7s ease 0s;
+	transition: opacity 0.7s ease 0s;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+	.uk-dotnav {
+		li {
+			position: relative;
+			padding-left: 0;
+			border: 2px solid #eceff1;
+			height: 80px !important;
+			overflow: hidden;
+			margin-bottom: 0;
+			margin-right: 5px;
+			margin-bottom: 10px;
+			a {
+				text-indent: 0 !important;
+				width: 100px !important;
+				height: 100px !important;
+				-webkit-border-radius: 0px !important;
+				-moz-border-radius: 0px !important;
+				border-radius: 0px !important;
+				border-width: 0 !important;
+				z-index: 1;
+				position: relative;
+				z-index: 1 !important;
+				&::after {
+					background: transparent !important;
+				}
+			}
+		}
+		li.uk-active {
+			border-color: $border-color_1;
+		}
+	}
+	.vv_icons {
+		position: absolute;
+		height: 25px;
+		width: 100px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 2 !important;
+		-webkit-border-radius: 0px !important;
+		-moz-border-radius: 0px !important;
+		border-radius: 0px !important;
+		border-width: 0 !important;
+		background: rgba(0, 0, 0, 0.8) !important;
+		span {
+			font-size: 16px;
+			z-index: 3 !important;
+			padding: 0 4px;
+			border-right: 1px solid #eceff1;
+      position: relative;
+      text-indent: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:before{
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+      }
+			&:hover {
+				background: #00f;
+			}
+			&:last-child {
+				border-right-width: 0;
+			}
+		}
+		&:after {
+			z-index: 1 !important;
+		}
+	}
+	.uk-thumbnav {
+		margin-left: 10px;
+		margin-right: 10px;
+		justify-content: center;
+		li {
+			div {
+				&::after {
+					background: transparent;
+				}
+			}
+		}
+		li.uk-active {
+			div {
+				&::after {
+					background: rgba(0, 0, 0, 0);
+				}
+			}
+		}
+	}
+}
+
+
+#app-slideshow {
+  .oss_transparent {
+    background: transparent !important;
+
+    i,
+    p {
+      color: #cfd8dc !important;
+    }
+  }
+
+}
+
+
+
+.oss_note_block {
+  border: 1px solid #4e8ef1;
+  background: #e3f2fd;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #0a3476;
+  line-height: 150%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.oss_note_block_nocards {
+  border: 1px solid #0a3476;
+  background: #fff;
+  padding: 20px;
+  font-size: 1.2rem;
+  margin: 20px;
+  color: #0a3476;
+  line-height: 150%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.oci-show-data {
+  cursor: pointer;
+  color: #999;
+}
+
+.oci-empty {
+  background: #fafafa;
+  border: 1px dashed #999;
+  color: #003d60;
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.oci-dummy {
+  height: 200px;
+}
+
+.osc-wraper {
+  cursor: pointer;
+}
+
+.v_sidebar_editor-box {
+  margin-top: 10px;
+  background: #f8f8f8;
+  border: 1px solid rgba(47.813, 47.813, 47.813, .2);
+  padding: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  input {
+    background-color: #fff !important;
+  }
+}
+
+.icongroup-wrapper {
+  text-align: right;
+}
+
+.oci-icon-group {
+  border: 1px solid rgba(47.813, 47.813, 47.813, .2);
+  padding: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 5px;
+
+  // float: right;
+  span {
+    background: rgba(47.813, 47.813, 47.813, .1);
+    padding: 0 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+
+    i {
+      font-size: 14px;
+      color: $j_secondary;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .oss_del {
+    margin-right: 15px;
+    color: #f00;
+  }
+}
+
+.oci-fixed-width {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.oci-full-width {
+  width: 100%;
+}
+
+.oci-fixed-width {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.osc-top-bar {
+  display: block !important;
+  height: 45px;
+  line-height: 45px;
+  margin: 10px 0 !important;
+  border: 1px solid $side_borders;
+  padding-left: 10px !important;
+  margin-top: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  div {
+    height: inherit;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    width: auto;
+    float: left;
+    margin-left: 4px;
+
+    label,
+    select,
+    span {
+      line-height: 25px;
+    }
+
+
+  }
+}
+
+.oss_shortcode_block {
+  position: relative;
+
+  .oss_but1 {
+    height: 30px;
+    line-height: 30px !important;
+    // margin: 10px 0!important;
+    border: 1px solid $side_borders;
+    padding: 0 10px !important;
+    // margin-top: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #eeeeee;
+    cursor: pointer;
+
+    &:hover {
+      background: #cfcfcf;
+    }
+
+    span {
+      margin-top: 3px;
+    }
+  }
+
+  .oss_shortcode_drop {
+    width: 200px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 20px;
+    background: #eee;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 5px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    z-index: 100;
+
+    i {
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+.osl-refresh {
+  // display: inline-block;
+  width: 120px;
+  padding: 10px;
+  background: #efefef;
+  margin: 20px auto;
+  color: #808080;
+  cursor: pointer;
+  text-align: center;
+}

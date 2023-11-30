@@ -1,0 +1,426 @@
+# Copyright (C) 2023 OssKit.Net
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VIVA Slideshows Plugin\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2023-08-31 13:41+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alex Green <contact@vivapro.net>\n"
+"Language-Team: OSS Kit Team <contact@vivapro.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Domain: viva-slideshow\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: scss\n"
+"X-Poedit-SearchPathExcluded-2: inc/app.js\n"
+"X-Poedit-SearchPathExcluded-3: inc/src\n"
+"X-Poedit-SearchPathExcluded-4: inc/com\n"
+
+#: inc/preview.php:3
+msgid ""
+"Full width preview is supposed that you will place cards in the "
+"area which has screen wide layout."
+msgstr ""
+
+#: inc/preview.php:6
+msgid ""
+"You have no slides yet.  Fill the form on left and click button - "
+"Add Item"
+msgstr ""
+
+#: inc/preview.php:7
+msgid ""
+"You can add as many slides as you wish, and edit or delete them "
+"then"
+msgstr ""
+
+#: inc/preview.php:10
+msgid "Refresh"
+msgstr ""
+
+#: inc/preview.php:12
+msgid "Content Items List Loading Problem?"
+msgstr ""
+
+#: inc/preview.php:14
+msgid ""
+"Can you see it? Button to select and lists of content items after "
+"click. No? You have some problems then."
+msgstr ""
+
+#: inc/preview.php:16
+msgid ""
+"If you are reading this means you have problems with content items "
+"loading"
+msgstr ""
+
+#: inc/preview.php:17
+msgid ""
+"The plugin uses WP REST API to load content items for adding them "
+"to the cards. If for some reasons you have blocked REST API, list "
+"of content items will not be loading."
+msgstr ""
+
+#: inc/preview.php:18
+msgid "What can you do?"
+msgstr ""
+
+#: inc/preview.php:20
+msgid ""
+"You can ignore it, plugin will continue to work, but you can use "
+"only custom card form, i e to fill form manually,  though the "
+"option \"Select Content\" allow you to fill form automaticly"
+msgstr ""
+
+#: inc/preview.php:21
+msgid "Try to unblock Reset API"
+msgstr ""
+
+#: inc/preview.php:23
+msgid "What can REST API block?"
+msgstr ""
+
+#: inc/preview.php:25
+msgid "Server Problem(hosting settings)"
+msgstr ""
+
+#: inc/preview.php:26
+msgid "Another Plugin Blocks it"
+msgstr ""
+
+#: inc/preview.php:27
+msgid "You yourself switched off REST API using any code"
+msgstr ""
+
+#: inc/preview.php:29
+msgid ""
+"You can check if your site REST API is off clicking on the link"
+msgstr ""
+
+#: inc/preview.php:31
+msgid ""
+"If you see Error 404 your site has no REST API, if you can see "
+"JSON code, but can't see button Select item, please report us"
+msgstr ""
+
+#: inc/preview.php:34 viva-slideshow.php:251
+msgid "Shortcode Is Copied"
+msgstr ""
+
+#: inc/preview.php:37
+msgid "Thanks for using our plugin!"
+msgstr ""
+
+#: inc/preview.php:38
+msgid "Loading"
+msgstr ""
+
+#: inc/preview.php:44
+msgid ""
+"Warning: It seems your site has no REST API available. The plugin "
+"can't display content list data without it."
+msgstr ""
+
+#: inc/preview.php:46
+msgid "Read More"
+msgstr ""
+
+#: inc/preview.php:47
+msgid "Do not show this message again"
+msgstr ""
+
+#: inc/sidebar.php:15
+msgid "Preview Before Add"
+msgstr ""
+
+#: inc/sidebar.php:17 inc/sidebar.php:243
+msgid "Image"
+msgstr ""
+
+#: inc/sidebar.php:25 inc/sidebar.php:163 inc/sidebar.php:179
+#: inc/sidebar.php:181 inc/sidebar.php:251
+msgid "Title"
+msgstr ""
+
+#: inc/sidebar.php:28 inc/sidebar.php:254
+msgid "Subtitle"
+msgstr ""
+
+#: inc/sidebar.php:31 inc/sidebar.php:256
+msgid "Description"
+msgstr ""
+
+#: inc/sidebar.php:33
+msgid "Url"
+msgstr ""
+
+#: inc/sidebar.php:34
+msgid "Leave empty if no need"
+msgstr ""
+
+#: inc/sidebar.php:41 inc/sidebar.php:263
+msgid "Link"
+msgstr ""
+
+#: inc/sidebar.php:41 inc/sidebar.php:263
+msgid "Text"
+msgstr ""
+
+#: inc/sidebar.php:43 inc/sidebar.php:265
+msgid "Content"
+msgstr ""
+
+#: inc/sidebar.php:43 inc/sidebar.php:117 inc/sidebar.php:265
+msgid "Align"
+msgstr ""
+
+#: inc/sidebar.php:43 inc/sidebar.php:265
+msgid ""
+"You can set default align in Style Tab, here you overwrite "
+"default, if want every slide has different alignment"
+msgstr ""
+
+#: inc/sidebar.php:58 inc/sidebar.php:140 inc/sidebar.php:163
+msgid "Style"
+msgstr ""
+
+#: inc/sidebar.php:60
+msgid "Transition"
+msgstr ""
+
+#: inc/sidebar.php:73
+msgid "Autoplay"
+msgstr ""
+
+#: inc/sidebar.php:76
+msgid "Interval"
+msgstr ""
+
+#: inc/sidebar.php:81
+msgid "Max Height"
+msgstr ""
+
+#: inc/sidebar.php:89 inc/sidebar.php:94
+msgid "Filter"
+msgstr ""
+
+#: inc/sidebar.php:91
+msgid ""
+"You can add filter on the images if do not use  a content box "
+"background to do text more contrast to be readable"
+msgstr ""
+
+#: inc/sidebar.php:96 inc/sidebar.php:151 inc/sidebar.php:181
+#: inc/sidebar.php:185
+msgid "Color"
+msgstr ""
+
+#: inc/sidebar.php:103
+msgid "Container"
+msgstr ""
+
+#: inc/sidebar.php:103
+msgid ""
+"If your theme has modern layout(full width background and fixed "
+"width centered content container) you can match slidshow container "
+"with same width"
+msgstr ""
+
+#: inc/sidebar.php:109
+msgid "Max Width"
+msgstr ""
+
+#: inc/sidebar.php:113
+msgid "Content Style"
+msgstr ""
+
+#: inc/sidebar.php:135
+msgid "Navigation"
+msgstr ""
+
+#: inc/sidebar.php:137
+msgid ""
+"Show Navigation Bar - Note: It does not display in backend preview "
+"as this place for edit-management thumbnails preview bar here. See "
+"it in frontentend"
+msgstr ""
+
+#: inc/sidebar.php:145
+msgid "Show Preview Thumbnails"
+msgstr ""
+
+#: inc/sidebar.php:146
+msgid "If it is on it will show thumbnails on menu hover"
+msgstr ""
+
+#: inc/sidebar.php:157
+msgid "Content Box Style"
+msgstr ""
+
+#: inc/sidebar.php:159
+msgid "Background"
+msgstr ""
+
+#: inc/sidebar.php:159
+msgid ""
+"Hint - Use alpha channel(transparency), for content box "
+"background, it's second slider in th color picker"
+msgstr ""
+
+#: inc/sidebar.php:179
+msgid "Size"
+msgstr ""
+
+#: inc/sidebar.php:189
+msgid "Font Size"
+msgstr ""
+
+#: inc/sidebar.php:191
+msgid "Width"
+msgstr ""
+
+#: inc/sidebar.php:193
+msgid "Border Radius"
+msgstr ""
+
+#: inc/sidebar.php:201
+msgid "Show Button"
+msgstr ""
+
+#: inc/sidebar.php:203
+msgid ""
+"Whole slide is a link, so it be used without any button, but if "
+"you want attract more attention use buttons"
+msgstr ""
+
+#: inc/sidebar.php:206
+msgid "Button Style"
+msgstr ""
+
+#: inc/sidebar.php:225
+msgid "Data Code"
+msgstr ""
+
+#: inc/sidebar.php:226
+msgid "Data for export, or for debugging(send to support)"
+msgstr ""
+
+#: inc/sidebar.php:229 viva-slideshow.php:120
+msgid "Admin Layout"
+msgstr ""
+
+#: inc/sidebar.php:230
+msgid "Select preferred layout"
+msgstr ""
+
+#: inc/sidebar.php:233
+msgid ""
+"Note: Here you can try it, it lasts until page reloaded, for "
+"permanent using set it in VIVA Slideshows - Sttings"
+msgstr ""
+
+#: inc/sidebar.php:240
+msgid "Edit"
+msgstr ""
+
+#: inc/sidebar.php:258
+msgid "Link Url"
+msgstr ""
+
+#: inc/sidebar.php:280
+msgid "Are you sure you want to leave page?"
+msgstr ""
+
+#: inc/sidebar.php:282
+msgid "All not saved changes will be lost!"
+msgstr ""
+
+#: inc/sidebar.php:283
+msgid "Cancel"
+msgstr ""
+
+#: inc/sidebar.php:285
+msgid "Leave"
+msgstr ""
+
+#: inc/widget.php:15
+msgid "VIVA Slideshows Widget"
+msgstr ""
+
+#: inc/widget.php:17
+msgid "Displays OSS cards based on a specified ID"
+msgstr ""
+
+#: inc/widget.php:43
+msgid "Select Slideshow:"
+msgstr ""
+
+#: viva-slideshow.php:39
+msgid "Shortcode"
+msgstr ""
+
+#: viva-slideshow.php:42
+msgid "Thumbnail"
+msgstr ""
+
+#: viva-slideshow.php:99
+msgid "Description Lenght"
+msgstr ""
+
+#: viva-slideshow.php:102
+msgid ""
+"Description Length(words) by default, maximum 55. This refers only "
+"to fetched text from content items. Length of custom text as you "
+"wish. Also you can add or shorten fetched text for a senseful "
+"description. Default is 20"
+msgstr ""
+
+#: viva-slideshow.php:109
+msgid "Read More Text"
+msgstr ""
+
+#: viva-slideshow.php:112
+msgid ""
+"Default text is \"Read More\", you can change it as you wish or "
+"write your own if your site language is not English"
+msgstr ""
+
+#: viva-slideshow.php:113
+msgid "Note: Also you can change it for every item when add or edit "
+msgstr ""
+
+#: viva-slideshow.php:123
+msgid "Select admin layout for better preview and management. "
+msgstr ""
+
+#: viva-slideshow.php:124
+msgid ""
+"Note: Check it on edit page and make sure it do not hide any "
+"necessary extra modules if you have any, before set it as default."
+msgstr ""
+
+#: viva-slideshow.php:136
+msgid "Save Changes"
+msgstr ""
+
+#: viva-slideshow.php:271
+msgid "Copy To Clipboard"
+msgstr ""
+
+#: viva-slideshow.php:272
+msgid "Data Is Copied"
+msgstr ""

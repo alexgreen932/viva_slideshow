@@ -1,0 +1,58 @@
+@import "_vars.scss";
+
+.v_drop {
+  background: #404550;
+  padding: 0 5px;
+  margin-top: 10px;
+  height: 30px;
+  line-height: 30px;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  span {
+    margin-top: 0 !important;
+    font-size: 1rem !important;
+  }
+}
+
+.v_drop_list {
+  background: #404550;
+  color: #e5e5e5;
+  max-height: 200px;
+  overflow-x: auto;
+  margin-top: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  li {
+    line-height: 25px;
+    border-bottom: 1px solid #959baa;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 0 5px;
+    &:hover {
+      background: #555b6b;
+    }
+    &.v_active {
+      background: #959baa;
+    }
+    span {
+      font-size: 10px;
+      text-transform: uppercase;
+      color: #ffcdd2;
+      float: right;
+    }
+  }
+}
+
+#app-slideshow .v_sidebar_prim .oci-tabs-content .v_select_list {
+  background: #959baa !important;
+  line-height: 20px;
+  margin-bottom: 10px;
+  option {
+    border-bottom: 1px solid #a7acb8 !important;
+
+  }
+
+}
+

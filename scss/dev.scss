@@ -1,0 +1,109 @@
+.v_thumbs {
+    opacity: 1;
+    transition: opacity 0.7s ease 0s;
+    .uk-dotnav {
+      li {
+        position: relative;
+        padding-left: 0;
+        border: 2px solid #eceff1;
+        height: 80px !important;
+        overflow: hidden;
+        margin-bottom: 0;
+        margin-right: 5px;
+        margin-bottom: 10px;
+  
+        a {
+          text-indent: 0 !important;
+          width: 100px !important;
+          height: 100px !important;
+          -webkit-border-radius: 0px !important;
+          -moz-border-radius: 0px !important;
+          border-radius: 0px !important;
+          border-width: 0 !important;
+          z-index: 1;
+          position: relative;
+        }
+        a::after {
+          background: transparent !important;
+        }
+    
+        &.uk-active {
+          border-color: #f00;
+        }
+    
+    
+    
+    
+        a {
+          z-index: 1 !important;
+        }
+      }
+    }
+  
+    .vv_icons {
+      position: absolute;
+      height: 25px;
+      width: 100px;
+      // top: -25px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2 !important;
+      -webkit-border-radius: 0px !important;
+      -moz-border-radius: 0px !important;
+      border-radius: 0px !important;
+      border-width: 0 !important;
+  
+      background: rgba(0, 0, 0, .8)!important;
+      span {
+        font-size: 15px;
+        z-index: 3 !important;
+        padding: 2px 4px;
+        border-right: 1px solid #eceff1;
+        cursor: pointer;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+  
+        &:hover {
+          background: #000;
+        }
+  
+        &:last-child {
+          border-right-width: 0;
+  
+        }
+      }
+  
+      &:after {
+        z-index: 1 !important;
+  
+      }
+  
+
+    }
+  
+    li div {
+      //     width: 100px;
+      // height: 60px;   
+    }
+  
+    .uk-thumbnav {
+      margin-left: 10px;
+      margin-right: 10px;
+      justify-content: center;
+    }
+  
+    .uk-thumbnav li div::after {
+      background: transparent;
+    }
+  
+    .uk-thumbnav li.uk-active div::after {
+      background: rgba(0, 0, 0, 0);
+    }
+  
+ 
+  }

@@ -1,0 +1,97 @@
+
+.vi-button-red{
+  background: #f44336;
+}
+.vi-button-blue{
+  background: #1e87f0;
+}
+.vi-button-green{
+  background: #4caf50;
+}
+
+.vi-button-teal{
+  background: #009688;
+  color:#fff;
+}
+
+.vi-button-indigo{
+  background: #3f51b5;
+  color:#fff;
+}
+
+.vi-button-default{
+  background: #efefef;
+  color:#000;
+}
+
+.vi-button-purple{
+  background: #9c27b0;
+  color:#fff;
+}
+
+.vi-button-cyan{
+  background: #00bcd4;
+  color:#fff;
+}
+
+.vi-button-gray{
+  background: #455a64;
+}
+.vi-button-light-gray{
+  background: #cfd8dc;
+  color:#000!important;
+}
+ .vi-button-red, .vi-button-blue, .vi-button-green, .vi-button-teal, .vi-button-indigo, .vi-button-default, .vi-button-purple, .vi-button-cyan, .vi-button-gray, .vi-button-light-gray{
+  -webkit-transition: box-shadow 2s ease;
+  -moz-transition: box-shadow 2s ease;
+  -o-transition: box-shadow 2s ease;
+  transition: box-shadow 2s ease;
+	&:hover{
+-webkit-box-shadow: inset 3px 3px 29px 15px rgba(0,0,0,0.19); 
+box-shadow: inset 3px 3px 29px 15px rgba(0,0,0,0.19);
+	}
+}
+
+.vi-text-shadow {
+  text-shadow: #474747 3px 5px 2px;
+}
+.vi-text-inset {
+  text-shadow: #e0e0e0 1px 1px 0;
+}
+.vi-text-glow {
+  text-shadow: #fff 0 0 10px;
+}
+.vi-text-neon {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+.vi-text-flame {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #6cccf2, 0 0 30px #6cccf2, 0 0 40px #6cccf2, 0 0 55px #6cccf2, 0 0 75px #6cccf2;
+}
+.vi-text-fire {
+  text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+}
+.vi-text-blur {
+  text-shadow: rgba(255,255,255,0.5) 0 0 15px,rgba(255,255,255,0.5) 0 0 10px;
+}
+.vi-text-simple3d {
+  // text-shadow: #969696 1px 3px 0, #aba8a8 1px 13px 5px;
+  text-shadow: #404040 1px 3px 0, #726e6e 1px 13px 5px;
+}
+.vi-text-realistic3d {
+  text-shadow: #726e6e 0 1px 0,#404040 0 2px 0,#615e5e 0 3px 0,#404040 0 4px 0,#514e4e 0 5px 0,rgba(0,0,0,0.1) 0 6px 1px,rgba(0,0,0,0.1) 0 0 5px,rgba(0,0,0,0.3) 0 1px 3px,rgba(0,0,0,0.15) 0 3px 5px,rgba(0,0,0,0.2) 0 5px 10px,rgba(0,0,0,0.2) 0 10px 10px,rgba(0,0,0,0.1) 0 20px 20px;
+}
+.vi-text-vegas {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+.vi-text-grave {
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+.vi-text-deep {
+  text-shadow: 0 -1px 0 #fff,0 1px 0 #2e2e2e,0 2px 0 #2c2c2c,0 3px 0 #2a2a2a,0 4px 0 #282828,0 5px 0 #262626,0 6px 0 #242424,0 7px 0 #222,0 8px 0 #202020,0 9px 0 #1e1e1e,0 10px 0 #1c1c1c,0 11px 0 #1a1a1a,0 12px 0 #181818,0 13px 0 #161616,0 14px 0 #141414,0 15px 0 #121212,0 22px 30px rgba(0,0,0,0.9);
+}
+.vi-text-tactile {
+  text-shadow: -1px -1px 1px rgba(255,255,255,0.1),1px 1px 1px rgba(0,0,0,0.5);
+}
+.vi-text-cartoon {
+  text-shadow: #fff 2px 2px 0px, #9C9C9C 4px 4px 0px;
+}

@@ -1,0 +1,66 @@
+
+.oss-slide-default{
+  .oss-slide-box{
+    display: none;
+    .viva-slide-heading, span, div, a{
+      display: none;
+    }
+  }
+  .uk-active{
+    .oss-slide-box{
+        display: block;
+        -webkit-animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 500ms both;
+        animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 500ms both;
+        .viva-slide-heading, span{
+            display: block;
+            -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 800ms both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 800ms both;
+        }
+        div{
+            display: block;
+            -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1100ms both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1100ms both;
+        }
+        a{
+            display: inline-block;
+            -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1400ms both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1400ms both;
+        }
+    }
+  }
+}
+
+
+
+// .uk-transition-active .oss-slide-content{
+
+//   display: inline-block;
+//   -webkit-animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+//           animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+ 
+// }
+// .uk-transition-active .oss-slide-default{
+//     .oss-slide-heading{
+//       display: block;
+//       -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+//               animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+//     }
+//     span{
+//       display: inline-block;
+//       -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+//               animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+//     }
+//     .v-slide-text{
+//       display: block;
+//   -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+//           animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+//     }
+//     a{
+//       display: inline-block;
+//   -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+//           animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+//     }
+
+// }
+
